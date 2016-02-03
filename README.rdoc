@@ -1,0 +1,3 @@
+= emails_macros
+
+Allows to use macroses in emails

@@ -1,0 +1,8 @@
+<% if Setting.emails_header.present? -%>
+<%= strip_tags(textilizable(Setting.emails_header)) %>
+<% end -%>
+<%= yield %>
+<% if Setting.emails_footer.present? -%>
+--
+<%= strip_tags(textilizable(Setting.emails_footer)) %>
+<% end -%>
