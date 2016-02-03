@@ -2,7 +2,7 @@ Redmine::Plugin.register :emails_macros do
   name 'Emails Macros plugin'
   author 'Alexander Ustimenko'
   description 'Use macroses in redmine emails\' header/footer'
-  version '0.0.0'
+  version '1.0.0'
   url 'http://github.com/garex/redmine-plugin-emails-macros'
   author_url 'http://ustimen.co'
 end
